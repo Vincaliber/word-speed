@@ -1,0 +1,113 @@
+#startGame,
+#gameOver,
+#totalScore,
+#smileyFace,
+#smileyFaceDiv,
+#resultDiv {
+    display: none;
+}
+
+#totalScore,
+#gameOver {
+    background: #c5946a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#startGame {
+    text-align: center;
+    background: #d9932a;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    border: 2px solid #fff;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.startScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://image.freepik.com/free-vector/illustration-tree-graphic-jungle_46176-199.jpg);
+    color: #fff;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#startTheGame {
+    background: #45c48b;
+    color: #000;
+    padding: 0.6rem 2rem;
+    border-radius: 10px;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#gameRules {
+    background: #ff865f;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 2em;
+    box-shadow: inset 0px 0px 0px 5px #fff;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+#heading {
+    color: #ff865f;
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#resultDiv {
+    color: #fff;
+    background: #e9e1bb;
+    padding: 20px;
+    FONT-WEIGHT: 200;
+    border: 5px solid #c08426;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#wordInput {
+    color: #fff;
+    background: #aa6406;
+    outline: 0;
+    border: 0;
+    box-shadow: inset 0px 0 0 2px #e79c1d;
+    /* text-indent: 0px; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#score-timer p {
+    display: inline-block;
+}
+
+#score-timer,
+#paraWord {
+    font-size: 20px;
+}
+
+#smileyFace {
+    width: 100%;
+    max-width: 200px;
+}
+
+#fasttype-img {
+    max-width: 100px;
+    margin: 0 20px;
+}

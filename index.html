@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fast Typer</title>
+
+</head>
+
+<body oncopy="return false" oncut="return false" onpaste="return false">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 startScreen">
+                <div id="startGame">
+                    <div id="score-timer">
+                        <p>Score: <span id="score">0</span> </p> &nbsp;
+                        <p id="timer">Timer: <span id="timerValue"></span> seconds</p>
+                    </div>
+                    <input type="text" name="word" id="wordInput" />
+                    <br /><br />
+                    <p id="paraWord">Word: </p>
+                </div>
+                <div id="resultDiv">
+                    <p id="smileyFaceDiv">
+                        <img src="" alt="" id="smileyFace" class="img-fluid" />
+                    </p>
+                    <p id="totalScore">Total Score: <span id="totalScoreValue"></span></p>
+                    <div id="gameOver">Game Over</div>
+                </div>
+                <div id="divToHide">
+                    <h1 id="heading">Fast Typer.....</h1>
+                    <img src="https://i.dlpng.com/static/png/6842758_preview.png" class="img-fluid" id="fasttype-img"
+                        alt="Learn Touch Typing Free - Typing Png Icon@clipartmax.com">
+                    <br>
+                    <div id="gameRules">
+                        <h4><u>Rules:</u></h4>
+                        <p><i class="fa fa-arrow-right" aria-hidden="true"></i> The player has 5 seconds for each level.
+                        </p>
+                        <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Get a score for each correctly typed
+                            word.</p>
+                        <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Each word is case sensitive. Type as it
+                            is.</p>
+                    </div>
+                    <br>
+                    <div style="text-align: center;">
+                        <button id="startTheGame" onclick="startGame()">Start</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
